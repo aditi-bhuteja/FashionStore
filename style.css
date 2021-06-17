@@ -525,3 +525,57 @@ font1{
         font-size: 12px;
     }
 }
+
+
+.menu{
+    display:none;
+  position: absolute;
+  top:8%;
+  /* bottom: 0; */
+  right: 15px;
+  border: 3px solid rgb(243, 147, 176);
+  border-radius: 5px;
+  text-align: center;
+  width:150px;
+  background: rgb(254, 254, 255);
+  padding-left:0px;
+  padding-right: 30px;
+}
+.menu ul{
+    list-style-type:none;
+    color: rgb(243, 147, 176);
+    padding-top: 0px;
+}
+.menu a{ 
+    text-decoration: none;
+    color: rgb(243, 147, 176);
+    font-size: 20px;
+
+}
+.menu .signin{
+  
+      background:coral;
+      height: 30px;
+      width: 100px;
+      font-size: 1rem;
+      color:cornsilk;
+      border: transparent;
+      /* border:black 2px solid;*/
+      border-radius: 5px; 
+      cursor:grab;
+  
+}
+
+.close{
+  background:rgb(243, 147, 176);
+  height: 25px;
+  width: 110px;
+  font-size: 1rem;
+  color:cornsilk;
+  border: transparent;
+  /* border:black 2px solid;*/
+  border-radius: 5px; 
+  cursor:grab;
+  margin-top: 5%;
+}
+
