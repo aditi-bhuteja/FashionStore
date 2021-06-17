@@ -8,48 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel = "icon" href = "favicon.ico" type = "image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 <body>
-<!-- <header>
-    <div class="box-1">
-        <nav class="nav1">
-            <a class="a_top" href="#"> My Account <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-            <a class="a_top" href="#">Language <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-            <h5>
-                Free shipping on all order above Rs.5000/-
-            </h5> 
-        </nav>
-    
-    </div>
-    <div class="box-2">
-        <nav class="nav2">
-            <a href="#">Home</a>
-            <a href="#">Shop</a>
-            <a href="#">Promotions</a>
-            <a href="#">Pages</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact Us</a>
-        
-            <a href="#"> <i class="fa fa-user"></i></a>
-            <a href="#"> <i class="fa fa-shopping-cart"></i></a>
-        </nav>
-        <h2>
-            Fashion<font>store</font>
-        </h2>
-    </div>
-    </header> -->
     <header>
-        <!-- <div class="box1">
-            <div class="navi">
-                <nav>
-                <a href="#">Account <i class="fa fa-angle-down"></i></a>
-                <a href="#">Language <i class="fa fa-angle-down"></i></a>
-                </nav>
-            </div>
-            <div class="heading">
-                <h5>Free shipping on all order above Rs.5000/-</h5>
-            </div> 
-        </div> -->
         <div class="box2">
             <div class="shopname">
                 <h2>
@@ -63,14 +25,15 @@
                     <a href="#">Shop</a>
                     <a href="#">Promotions</a>
                     <a href="#">Pages</a>
-                    <a href="#">Blog</a>
                     <a href="#">Contact Us</a>
+                    <a href="login.html">Sign Up/In</a>
+
                 </nav>
             </div>
             <div class="symbols">
                 <a href="#"> <i class="fa fa-user"></i></a>
                 <a href="#"> <i class="fa fa-shopping-cart"></i></a>
-                <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                <a href="#"><i onclick="showMenu()" class="fa fa-ellipsis-v"></i></a>
             </div>
         </div>
         </div>
@@ -128,9 +91,21 @@
         </div>
         <div class="bottom">
             2020-21 &copy; Fashion Store Pvt. Ltd All Rights Reserved
-
         </div>
     </footer>
+    
+    <div class="menu" id="open_menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#">Promotions</a></li>
+            <li><a href="#">Pages</a></li>            
+            <li><a href="#contact_us">Contact Us</a></li>
+            <li><a href="login.html">Sign In/Up</a></li>
+            <li class="close"><button class="close" onclick="closeMenu()">CLOSE</button></li>
+            
+        </ul>
+      </div>
 
     
 </body>
